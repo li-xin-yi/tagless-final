@@ -26,11 +26,27 @@ $ pip install jupyter_contrib_nbextensions
 $ pip install jupytext
 ```
 
-Install [IHaskell] using `stack`:
+Install [IHaskell](https://github.com/gibiansky/IHaskell) using `stack`:
 
 ```
 $ git clone https://github.com/gibiansky/IHaskell
 $ cd IHaskell
 $ pip install -r requirements.txt
 $ stack install --allow-different-user --fast
+$ stack install ihaskell
 ```
+
+Clone this repository and enter:
+
+```
+$ git clone https://github.com/li-xin-yi/tagless-final.git
+$ cd tagless-final
+```
+
+Start a Jupyter notebook server:
+
+```
+stack exec jupyter -- notebook --config=config.py
+```
+
+

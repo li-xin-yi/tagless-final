@@ -1,6 +1,5 @@
 # tagless-final
 
-
 Implement attempts for typed tagless-final interpreters
 
 
@@ -33,20 +32,19 @@ $ git clone https://github.com/gibiansky/IHaskell
 $ cd IHaskell
 $ pip install -r requirements.txt
 $ stack install --allow-different-user --fast
-$ stack install ihaskell
+$ ihaskell install --stack
 ```
 
 Clone this repository and enter:
 
 ```
-$ git clone https://github.com/li-xin-yi/tagless-final.git
+$ git clone https://github.com/li-xin-yi/tagless-final
 $ cd tagless-final
 ```
 
 Start a Jupyter notebook server:
 
 ```
-stack exec jupyter -- notebook --config=config.py
+$ stack exec jupyter -- notebook --config=config.py
 ```
-
 

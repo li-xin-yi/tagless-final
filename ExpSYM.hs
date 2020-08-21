@@ -1,7 +1,7 @@
 {-# LANGUAGE NoMonomorphismRestriction #-}
 {-# LANGUAGE TypeSynonymInstances, FlexibleInstances #-}
 
-module F where
+module ExpSYM where
 
 class ExpSYM repr where
   lit :: Int -> repr
@@ -25,3 +25,6 @@ view :: String -> String
 view = id
 
 x = add (lit 1919) (neg (add (lit 114) (lit 514)))
+
+-- main = do (print $ eval x) (print $ view x)
+

@@ -13,6 +13,8 @@ Implement attempts for typed tagless-final interpreters
 
 1. [Typed Tagless-Final Interpretations: Introductory Course](http://okmij.org/ftp/tagless-final/course/index.html)
 2. Kiselyov, Oleg. "[Typed tagless final interpreters.](http://okmij.org/ftp/tagless-final/course/lecture.pdf)" *Generic and Indexed Programming. Springer*, Berlin, Heidelberg, 2012. 130-174.
+3. [CodeWars: Finally tagless interpreter](https://www.codewars.com/kata/5424e3bc430ca2e577000048)
+4. 
 
 ## Build
 

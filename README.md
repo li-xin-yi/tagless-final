@@ -18,6 +18,12 @@ Implement attempts for typed tagless-final interpreters
 
 ## Build
 
+Install some depencies:
+
+```
+$ sudo apt-get install libtinfo-dev libzmq3-dev libcairo2-dev libpango1.0-dev libmagic-dev libblas-dev liblapack-dev
+```
+
 Create a new `conda` environment named `tagless` and activate it:
 
 ```
@@ -33,7 +39,7 @@ $ pip install jupyter_contrib_nbextensions
 $ pip install jupytext
 ```
 
-Install [IHaskell](https://github.com/gibiansky/IHaskell) using `stack`:
+Install [IHaskell](https://github.com/gibiansky/IHaskell) using `stack`(if you haven't installed `stack` yet, try `curl -sSL https://get.haskellstack.org/ | sh` and **do not install any new `ghc`** after installing `stack`): 
 
 ```
 $ git clone https://github.com/gibiansky/IHaskell

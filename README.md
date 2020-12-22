@@ -18,7 +18,7 @@ Implement attempts for typed tagless-final interpreters
 
 ## Build
 
-Install some depencies:
+Install some dependencies:
 
 ```
 $ sudo apt-get install libtinfo-dev libzmq3-dev libcairo2-dev libpango1.0-dev libmagic-dev libblas-dev liblapack-dev
